@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-'''
-	Self Replication
-'''
+
+# Self Replication
 
 def	oussama():
-	code = "#!/usr/bin/env python3\n'''\n\tSelf Replication\n'''\n\ndef\toussama():\n\tcode = {0}\n\treturn code\n\nprint(oussama().format(repr(oussama())))"
+	code = "#!/usr/bin/env python3\n\n# Self Replication\n\ndef\toussama():\n\tcode = {0}\n\treturn code\n\ndef\tmain():\n\t# Quine is the Queen\n\tprint(oussama().format(repr(oussama())))\n\nif  __name__ == '__main__':\n\tmain()"
 	return code
 
-print(oussama().format(repr(oussama())))
+def	main():
+	# Quine is the Queen
+	print(oussama().format(repr(oussama())))
+
+if  __name__ == '__main__':
+	main()
