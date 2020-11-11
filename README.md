@@ -8,4 +8,9 @@ More generally, a program that uses any data entry cannot be considereda valid q
 
 Indeed, theexecution of such a program produces for most languages no output, that is to say thesource code of the program.
 
+## Bonus
+The programs are made also with:
+- Python
+- JavaScript
+
 ## **obelouch** 1337
