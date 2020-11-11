@@ -6,7 +6,7 @@
 #    By: obelouch <obelouch@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/11 04:16:29 by obelouch          #+#    #+#              #
-#    Updated: 2020/11/11 04:35:56 by obelouch         ###   ########.fr        #
+#    Updated: 2020/11/11 04:37:14 by obelouch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,7 +45,7 @@ $(GRACE): $(GRACE_SRC)
 	@$(CC) -o $@ -c $<
 
 #### Sully   ##############################
-grace: $(SULLY)
+sully: $(SULLY)
 	@$(CC) -o $(SULLY) $(SULLY_SRC)
 
 $(SULLY): $(SULLY_SRC)
