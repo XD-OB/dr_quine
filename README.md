@@ -13,4 +13,5 @@ The programs are made also with:
 - Python
 - JavaScript
 
-## **obelouch** 1337
+## Owner
+- **Oussma Belouche** 1337
